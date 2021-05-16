@@ -70,8 +70,8 @@ async function iniciarScript() {
             for (let i = 0; i < arrayv1.length; i++) {
                 let template = {
                     label: `Escenario ${i + 1} `,
-                    url: arrayv2[i],
-                    referenceUrl: arrayv1[i],
+                    url: `https://clad741.github.io/scripthw/v2/${arrayv2[i]}`,
+                    referenceUrl: `https://clad741.github.io/scripthw/v1/${arrayv1[i]}`,
                     readyEvent: "",
                     readySelector: "",
                     delay: 0,
