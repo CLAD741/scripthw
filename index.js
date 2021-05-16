@@ -45,6 +45,7 @@ async function getFiles(dir) {
 function ejecutarBackstop() {
     exec("backstop test", (error, stdout, stderr) => {
         if (error) {
+            console.log(error);
             console.log(`error: ${error.message}`);
             return;
         }
@@ -56,14 +57,24 @@ function ejecutarBackstop() {
     });
 }
 
+function ejecutarBackstopApprove() {
+    exec("backstop approve", (error, stdout, stderr) => {
+        if (error) {
+            console.log(`error: ${error.message}`);
+            return;
+        }
+        if (stderr) {
+            console.log(`stderr: ${stderr}`);
+            return;
+        }
+        console.log(`stdout: ${stdout}`);
+    });
+}
 async function iniciarScript() {
-    arrayv1 = await getFiles("./v1");
-    arrayv2 = await getFiles("./v2");
+    let arrayv1 = await getFiles("./v1");
+    let arrayv2 = await getFiles("./v2");
 
-    setTimeout(() => {
-        console.log("array");
-        console.log(arrayv1.length);
-        console.log(arrayv2.length);
+    setTimeout(async() => {
         if (arrayv1.length !== arrayv2.length) {
             console.log("Deben haber la misma cantidad de imagénes");
         } else {
@@ -87,13 +98,32 @@ async function iniciarScript() {
                     requireSameDimensions: true,
                 };
                 pruebasautomatizadas["scenarios"].push(template);
+                let data1 = await JSON.stringify(pruebasautomatizadas);
+                await fs.writeFileSync("backstop.json", data1);
             }
-            console.log(pruebasautomatizadas);
-            let data = JSON.stringify(pruebasautomatizadas);
-            fs.writeFileSync("backstop.json", data);
-            ejecutarBackstop();
         }
-    }, 5000);
+    }, 2000);
+
+    setTimeout(() => {
+        ejecutarBackstop();
+    }, 4000);
+    setTimeout(() => {
+        ejecutarBackstopApprove();
+    }, 10000);
+    setTimeout(() => {
+        for (let j = 0; j < pruebasautomatizadas["scenarios"].length; j++) {
+            let url = pruebasautomatizadas["scenarios"][j].url;
+            let urlRef = pruebasautomatizadas["scenarios"][j].referenceUrl;
+            pruebasautomatizadas["scenarios"][j].url = urlRef;
+            pruebasautomatizadas["scenarios"][j].referenceUrl = url;
+        }
+        let data1 = JSON.stringify(pruebasautomatizadas);
+        fs.writeFileSync("backstop.json", data1);
+    }, 15000);
+
+    setTimeout(() => {
+        ejecutarBackstop();
+    }, 18000);
 }
 
 iniciarScript();
