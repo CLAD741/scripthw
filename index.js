@@ -22,7 +22,7 @@ let pruebasautomatizadas = {
     engineOptions: {
         args: ["--no-sandbox"],
     },
-    asyncCaptureLimit: 5,
+    asyncCaptureLimit: 50,
     asyncCompareLimit: 50,
     debug: false,
     debugWindow: false,
@@ -34,7 +34,6 @@ async function getFiles(dir) {
         if (err) console.log(err);
         else {
             files.forEach((file) => {
-                console.log(file);
                 lista.push(file);
             });
         }
@@ -71,6 +70,7 @@ function ejecutarBackstopApprove() {
     });
 }
 async function iniciarScript() {
+    console.log("Leyendo archivos...");
     let arrayv1 = await getFiles("./v1");
     let arrayv2 = await getFiles("./v2");
 
@@ -106,7 +106,7 @@ async function iniciarScript() {
 
     setTimeout(() => {
         ejecutarBackstop();
-    }, 8000);
+    }, 5000);
     setTimeout(() => {
         ejecutarBackstopApprove();
     }, 15000);
@@ -119,11 +119,11 @@ async function iniciarScript() {
         }
         let data1 = JSON.stringify(pruebasautomatizadas);
         fs.writeFileSync("backstop.json", data1);
-    }, 20000);
+    }, 21000);
 
     setTimeout(() => {
         ejecutarBackstop();
-    }, 23000);
+    }, 27000);
 }
 
 iniciarScript();

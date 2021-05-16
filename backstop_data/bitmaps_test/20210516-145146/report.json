@@ -1,10 +1,10 @@
-report({
+{
   "testSuite": "BackstopJS",
   "tests": [
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_1__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_1__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_1__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_1__0_document_0_default.png",
         "label": "Escenario 1 ",
@@ -21,16 +21,16 @@ report({
             "height": 0
           },
           "misMatchPercentage": "10.15",
-          "analysisTime": 425
+          "analysisTime": 213
         },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_1__0_document_0_default.png"
+        "diffImage": "..\\bitmaps_test\\20210516-145146\\failed_diff_backstop_default_Escenario_1__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_2__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_2__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_2__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_2__0_document_0_default.png",
         "label": "Escenario 2 ",
@@ -47,16 +47,16 @@ report({
             "height": 0
           },
           "misMatchPercentage": "21.83",
-          "analysisTime": 207
+          "analysisTime": 93
         },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_2__0_document_0_default.png"
+        "diffImage": "..\\bitmaps_test\\20210516-145146\\failed_diff_backstop_default_Escenario_2__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_3__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_3__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_3__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_3__0_document_0_default.png",
         "label": "Escenario 3 ",
@@ -73,16 +73,16 @@ report({
             "height": 0
           },
           "misMatchPercentage": "34.03",
-          "analysisTime": 188
+          "analysisTime": 71
         },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_3__0_document_0_default.png"
+        "diffImage": "..\\bitmaps_test\\20210516-145146\\failed_diff_backstop_default_Escenario_3__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_4__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_4__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_4__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_4__0_document_0_default.png",
         "label": "Escenario 4 ",
@@ -99,16 +99,16 @@ report({
             "height": 0
           },
           "misMatchPercentage": "23.64",
-          "analysisTime": 178
+          "analysisTime": 100
         },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_4__0_document_0_default.png"
+        "diffImage": "..\\bitmaps_test\\20210516-145146\\failed_diff_backstop_default_Escenario_4__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_5__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_5__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_5__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_5__0_document_0_default.png",
         "label": "Escenario 5 ",
@@ -125,16 +125,16 @@ report({
             "height": 0
           },
           "misMatchPercentage": "21.56",
-          "analysisTime": 169
+          "analysisTime": 99
         },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_5__0_document_0_default.png"
+        "diffImage": "..\\bitmaps_test\\20210516-145146\\failed_diff_backstop_default_Escenario_5__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_6__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_6__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_6__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_6__0_document_0_default.png",
         "label": "Escenario 6 ",
@@ -151,16 +151,16 @@ report({
             "height": 0
           },
           "misMatchPercentage": "10.13",
-          "analysisTime": 461
+          "analysisTime": 162
         },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_6__0_document_0_default.png"
+        "diffImage": "..\\bitmaps_test\\20210516-145146\\failed_diff_backstop_default_Escenario_6__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_7__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_7__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_7__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_7__0_document_0_default.png",
         "label": "Escenario 7 ",
@@ -177,16 +177,16 @@ report({
             "height": 0
           },
           "misMatchPercentage": "33.15",
-          "analysisTime": 121
+          "analysisTime": 77
         },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_7__0_document_0_default.png"
+        "diffImage": "..\\bitmaps_test\\20210516-145146\\failed_diff_backstop_default_Escenario_7__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_8__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_8__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_8__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_8__0_document_0_default.png",
         "label": "Escenario 8 ",
@@ -203,16 +203,16 @@ report({
             "height": 0
           },
           "misMatchPercentage": "22.40",
-          "analysisTime": 307
+          "analysisTime": 95
         },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_8__0_document_0_default.png"
+        "diffImage": "..\\bitmaps_test\\20210516-145146\\failed_diff_backstop_default_Escenario_8__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_9__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_9__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_9__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_9__0_document_0_default.png",
         "label": "Escenario 9 ",
@@ -229,16 +229,16 @@ report({
             "height": 0
           },
           "misMatchPercentage": "14.35",
-          "analysisTime": 53
+          "analysisTime": 91
         },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_9__0_document_0_default.png"
+        "diffImage": "..\\bitmaps_test\\20210516-145146\\failed_diff_backstop_default_Escenario_9__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_10__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_10__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_10__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_10__0_document_0_default.png",
         "label": "Escenario 10 ",
@@ -255,16 +255,16 @@ report({
             "height": 0
           },
           "misMatchPercentage": "19.45",
-          "analysisTime": 189
+          "analysisTime": 80
         },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_10__0_document_0_default.png"
+        "diffImage": "..\\bitmaps_test\\20210516-145146\\failed_diff_backstop_default_Escenario_10__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_11__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_11__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_11__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_11__0_document_0_default.png",
         "label": "Escenario 11 ",
@@ -281,16 +281,16 @@ report({
             "height": 0
           },
           "misMatchPercentage": "24.58",
-          "analysisTime": 187
+          "analysisTime": 66
         },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_11__0_document_0_default.png"
+        "diffImage": "..\\bitmaps_test\\20210516-145146\\failed_diff_backstop_default_Escenario_11__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_12__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_12__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_12__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_12__0_document_0_default.png",
         "label": "Escenario 12 ",
@@ -307,16 +307,16 @@ report({
             "height": 0
           },
           "misMatchPercentage": "10.22",
-          "analysisTime": 276
+          "analysisTime": 132
         },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_12__0_document_0_default.png"
+        "diffImage": "..\\bitmaps_test\\20210516-145146\\failed_diff_backstop_default_Escenario_12__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_13__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_13__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_13__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_13__0_document_0_default.png",
         "label": "Escenario 13 ",
@@ -333,16 +333,16 @@ report({
             "height": 0
           },
           "misMatchPercentage": "33.16",
-          "analysisTime": 178
+          "analysisTime": 82
         },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_13__0_document_0_default.png"
+        "diffImage": "..\\bitmaps_test\\20210516-145146\\failed_diff_backstop_default_Escenario_13__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_14__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_14__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_14__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_14__0_document_0_default.png",
         "label": "Escenario 14 ",
@@ -352,23 +352,14 @@ report({
         "referenceUrl": "https://clad741.github.io/scripthw/v2/dh5795aa56f20600b6fbe455.png",
         "expect": 0,
         "viewportLabel": "default",
-        "diff": {
-          "isSameDimensions": true,
-          "dimensionDifference": {
-            "width": 0,
-            "height": 0
-          },
-          "misMatchPercentage": "23.70",
-          "analysisTime": 61
-        },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_14__0_document_0_default.png"
+        "error": "Reference file not found E:\\Master\\Pruebas\\semana6\\script\\backstop_data\\bitmaps_reference\\backstop_default_Escenario_14__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_15__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_15__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_15__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_15__0_document_0_default.png",
         "label": "Escenario 15 ",
@@ -378,23 +369,14 @@ report({
         "referenceUrl": "https://clad741.github.io/scripthw/v2/dib161ada631a3119b86fe0e3.png",
         "expect": 0,
         "viewportLabel": "default",
-        "diff": {
-          "isSameDimensions": true,
-          "dimensionDifference": {
-            "width": 0,
-            "height": 0
-          },
-          "misMatchPercentage": "22.87",
-          "analysisTime": 229
-        },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_15__0_document_0_default.png"
+        "error": "Reference file not found E:\\Master\\Pruebas\\semana6\\script\\backstop_data\\bitmaps_reference\\backstop_default_Escenario_15__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_16__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_16__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_16__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_16__0_document_0_default.png",
         "label": "Escenario 16 ",
@@ -404,23 +386,14 @@ report({
         "referenceUrl": "https://clad741.github.io/scripthw/v2/dja0a0ae1ac5bae588d8185f.png",
         "expect": 0,
         "viewportLabel": "default",
-        "diff": {
-          "isSameDimensions": true,
-          "dimensionDifference": {
-            "width": 0,
-            "height": 0
-          },
-          "misMatchPercentage": "74.38",
-          "analysisTime": 201
-        },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_16__0_document_0_default.png"
+        "error": "Reference file not found E:\\Master\\Pruebas\\semana6\\script\\backstop_data\\bitmaps_reference\\backstop_default_Escenario_16__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_17__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_17__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_17__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_17__0_document_0_default.png",
         "label": "Escenario 17 ",
@@ -430,23 +403,14 @@ report({
         "referenceUrl": "https://clad741.github.io/scripthw/v2/dk4babb31aee623872a9c03d.png",
         "expect": 0,
         "viewportLabel": "default",
-        "diff": {
-          "isSameDimensions": true,
-          "dimensionDifference": {
-            "width": 0,
-            "height": 0
-          },
-          "misMatchPercentage": "24.05",
-          "analysisTime": 145
-        },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_17__0_document_0_default.png"
+        "error": "Reference file not found E:\\Master\\Pruebas\\semana6\\script\\backstop_data\\bitmaps_reference\\backstop_default_Escenario_17__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_18__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_18__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_18__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_18__0_document_0_default.png",
         "label": "Escenario 18 ",
@@ -456,23 +420,14 @@ report({
         "referenceUrl": "https://clad741.github.io/scripthw/v2/fad44ee93ff9c95ebfff2f6c.png",
         "expect": 0,
         "viewportLabel": "default",
-        "diff": {
-          "isSameDimensions": true,
-          "dimensionDifference": {
-            "width": 0,
-            "height": 0
-          },
-          "misMatchPercentage": "10.13",
-          "analysisTime": 225
-        },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_18__0_document_0_default.png"
+        "error": "Reference file not found E:\\Master\\Pruebas\\semana6\\script\\backstop_data\\bitmaps_reference\\backstop_default_Escenario_18__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_19__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_19__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_19__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_19__0_document_0_default.png",
         "label": "Escenario 19 ",
@@ -482,23 +437,14 @@ report({
         "referenceUrl": "https://clad741.github.io/scripthw/v2/fcf9716613e66924b2a8a956.png",
         "expect": 0,
         "viewportLabel": "default",
-        "diff": {
-          "isSameDimensions": true,
-          "dimensionDifference": {
-            "width": 0,
-            "height": 0
-          },
-          "misMatchPercentage": "34.07",
-          "analysisTime": 57
-        },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_19__0_document_0_default.png"
+        "error": "Reference file not found E:\\Master\\Pruebas\\semana6\\script\\backstop_data\\bitmaps_reference\\backstop_default_Escenario_19__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_20__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_20__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_20__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_20__0_document_0_default.png",
         "label": "Escenario 20 ",
@@ -508,23 +454,14 @@ report({
         "referenceUrl": "https://clad741.github.io/scripthw/v2/fec8a06a3a7e81bfd093509d.png",
         "expect": 0,
         "viewportLabel": "default",
-        "diff": {
-          "isSameDimensions": true,
-          "dimensionDifference": {
-            "width": 0,
-            "height": 0
-          },
-          "misMatchPercentage": "23.77",
-          "analysisTime": 210
-        },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_20__0_document_0_default.png"
+        "error": "Reference file not found E:\\Master\\Pruebas\\semana6\\script\\backstop_data\\bitmaps_reference\\backstop_default_Escenario_20__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_21__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_21__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_21__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_21__0_document_0_default.png",
         "label": "Escenario 21 ",
@@ -534,23 +471,14 @@ report({
         "referenceUrl": "https://clad741.github.io/scripthw/v2/ffb0fdfa25cdba736d967f50.png",
         "expect": 0,
         "viewportLabel": "default",
-        "diff": {
-          "isSameDimensions": true,
-          "dimensionDifference": {
-            "width": 0,
-            "height": 0
-          },
-          "misMatchPercentage": "23.14",
-          "analysisTime": 58
-        },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_21__0_document_0_default.png"
+        "error": "Reference file not found E:\\Master\\Pruebas\\semana6\\script\\backstop_data\\bitmaps_reference\\backstop_default_Escenario_21__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_22__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_22__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_22__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_22__0_document_0_default.png",
         "label": "Escenario 22 ",
@@ -560,23 +488,14 @@ report({
         "referenceUrl": "https://clad741.github.io/scripthw/v2/fm494c96d575f185bc712907.png",
         "expect": 0,
         "viewportLabel": "default",
-        "diff": {
-          "isSameDimensions": true,
-          "dimensionDifference": {
-            "width": 0,
-            "height": 0
-          },
-          "misMatchPercentage": "23.58",
-          "analysisTime": 197
-        },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_22__0_document_0_default.png"
+        "error": "Reference file not found E:\\Master\\Pruebas\\semana6\\script\\backstop_data\\bitmaps_reference\\backstop_default_Escenario_22__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_23__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_23__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_23__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_23__0_document_0_default.png",
         "label": "Escenario 23 ",
@@ -586,23 +505,14 @@ report({
         "referenceUrl": "https://clad741.github.io/scripthw/v2/hafae397b7a9582a4b57f465.png",
         "expect": 0,
         "viewportLabel": "default",
-        "diff": {
-          "isSameDimensions": true,
-          "dimensionDifference": {
-            "width": 0,
-            "height": 0
-          },
-          "misMatchPercentage": "10.22",
-          "analysisTime": 207
-        },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_23__0_document_0_default.png"
+        "error": "Reference file not found E:\\Master\\Pruebas\\semana6\\script\\backstop_data\\bitmaps_reference\\backstop_default_Escenario_23__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_24__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_24__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_24__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_24__0_document_0_default.png",
         "label": "Escenario 24 ",
@@ -612,23 +522,14 @@ report({
         "referenceUrl": "https://clad741.github.io/scripthw/v2/hc4906736c9efb07888a1979.png",
         "expect": 0,
         "viewportLabel": "default",
-        "diff": {
-          "isSameDimensions": true,
-          "dimensionDifference": {
-            "width": 0,
-            "height": 0
-          },
-          "misMatchPercentage": "33.29",
-          "analysisTime": 81
-        },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_24__0_document_0_default.png"
+        "error": "Reference file not found E:\\Master\\Pruebas\\semana6\\script\\backstop_data\\bitmaps_reference\\backstop_default_Escenario_24__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_25__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_25__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_25__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_25__0_document_0_default.png",
         "label": "Escenario 25 ",
@@ -638,23 +539,14 @@ report({
         "referenceUrl": "https://clad741.github.io/scripthw/v2/heb3a29e07a79d25f3d5fa6e.png",
         "expect": 0,
         "viewportLabel": "default",
-        "diff": {
-          "isSameDimensions": true,
-          "dimensionDifference": {
-            "width": 0,
-            "height": 0
-          },
-          "misMatchPercentage": "22.59",
-          "analysisTime": 50
-        },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_25__0_document_0_default.png"
+        "error": "Reference file not found E:\\Master\\Pruebas\\semana6\\script\\backstop_data\\bitmaps_reference\\backstop_default_Escenario_25__0_document_0_default.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Escenario_26__0_document_0_default.png",
-        "test": "..\\bitmaps_test\\20210516-145446\\backstop_default_Escenario_26__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20210516-145146\\backstop_default_Escenario_26__0_document_0_default.png",
         "selector": "document",
         "fileName": "backstop_default_Escenario_26__0_document_0_default.png",
         "label": "Escenario 26 ",
@@ -664,19 +556,10 @@ report({
         "referenceUrl": "https://clad741.github.io/scripthw/v2/hj3026f8be38cd5eeef29335.png",
         "expect": 0,
         "viewportLabel": "default",
-        "diff": {
-          "isSameDimensions": true,
-          "dimensionDifference": {
-            "width": 0,
-            "height": 0
-          },
-          "misMatchPercentage": "16.73",
-          "analysisTime": 131
-        },
-        "diffImage": "..\\bitmaps_test\\20210516-145446\\failed_diff_backstop_default_Escenario_26__0_document_0_default.png"
+        "error": "Reference file not found E:\\Master\\Pruebas\\semana6\\script\\backstop_data\\bitmaps_reference\\backstop_default_Escenario_26__0_document_0_default.png"
       },
       "status": "fail"
     }
   ],
   "id": "backstop_default"
-});
+}
