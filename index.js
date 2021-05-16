@@ -106,10 +106,10 @@ async function iniciarScript() {
 
     setTimeout(() => {
         ejecutarBackstop();
-    }, 5000);
+    }, 8000);
     setTimeout(() => {
         ejecutarBackstopApprove();
-    }, 11000);
+    }, 15000);
     setTimeout(() => {
         for (let j = 0; j < pruebasautomatizadas["scenarios"].length; j++) {
             let url = pruebasautomatizadas["scenarios"][j].url;
@@ -119,11 +119,11 @@ async function iniciarScript() {
         }
         let data1 = JSON.stringify(pruebasautomatizadas);
         fs.writeFileSync("backstop.json", data1);
-    }, 16000);
+    }, 20000);
 
     setTimeout(() => {
         ejecutarBackstop();
-    }, 19000);
+    }, 23000);
 }
 
 iniciarScript();
